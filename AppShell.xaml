@@ -15,9 +15,6 @@
     </FlyoutItem> -->
 
     <TabBar>
-        <Tab Title="Dashboard" Icon="{AppThemeBinding Light=dashboard_black.png, Dark=dashboard_white.png}">
-            <ShellContent Title="Dashboard" ContentTemplate="{DataTemplate views:Dashboard}" />
-        </Tab>
         <Tab Title="Home" Icon="{AppThemeBinding Light=home_black.png, Dark=home_white.png}">
             <ShellContent Title="Home" ContentTemplate="{DataTemplate views:TodoListPage}" />
         </Tab>

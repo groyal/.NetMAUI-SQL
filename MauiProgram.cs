@@ -17,7 +17,11 @@ using DotNet.Meteor.HotReload.Plugin;
 #endif
 
 namespace ToDoListApp;
-
+/*
+ * 
+ *  This is the main entry point for normal .NET MAUI apps.
+ * 
+ */
 public static class MauiProgram
 {
     public static MauiApp CreateMauiApp()

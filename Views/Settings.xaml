@@ -67,14 +67,13 @@
                     <Grid Margin="0" HorizontalOptions="Fill" HeightRequest="40" ColumnDefinitions="*,auto,auto">
                         <Label Grid.Column="0" Grid.Row="0" HorizontalOptions="Start" VerticalOptions="Center" Text="Biometrics Authentication"
                                FontAutoScalingEnabled="False" />
-                        <Switch Grid.Row="0" x:Name="BiometricsSwitch" HorizontalOptions="End" VerticalOptions="Center"
+                        <Switch Grid.Row="0" x:Name="BiometricsSwitch" HorizontalOptions="End" VerticalOptions="Center" IsVisible="False"
                                 Toggled="BiometricsSwitch_Toggled">
                         </Switch>
 
                         <Button Grid.Column="1" Text="Debug" BackgroundColor="Gray" TextColor="White" Pressed="Button_Pressed" IsVisible="False" />
                     </Grid>
                 </Border>
-
                 <!--About-->
                 <HorizontalStackLayout Margin="10,10,0,0">
                     <Label Text="About" FontSize="Title" />
@@ -120,7 +119,7 @@
                             </StackLayout.GestureRecognizers>
                             
                             <Image Source="dotnet_bot.png" Aspect="AspectFit" HeightRequest="30" HorizontalOptions="Center" />
-                            <Label Text="About Me" HorizontalOptions="Center" />
+                            <Label Text="About" HorizontalOptions="Center" />
                         </StackLayout>
                     </Grid>
                 </Border>

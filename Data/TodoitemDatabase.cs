@@ -19,6 +19,7 @@ namespace BeebopNoteApp.Data
                 try
                 {
                     CreateTableResult result = await Database.CreateTableAsync<Todoitem>();
+                    CreateTableResult result1 = await Database.CreateTableAsync<NovuSettings>();
                 }
                 catch (Exception)
                 {

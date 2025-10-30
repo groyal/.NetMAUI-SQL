@@ -1,7 +1,7 @@
 using Plugin.Maui.Biometric;
-using static ToDoListApp.ToastService;
+using static BeebopNoteApp.ToastService;
 
-namespace ToDoListApp.Views;
+namespace BeebopNoteApp.Views;
 
 public partial class AppLockedPage : ContentPage
 {

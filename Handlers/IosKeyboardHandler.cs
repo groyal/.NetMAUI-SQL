@@ -3,7 +3,7 @@ using Microsoft.Maui.Platform;
 using UIKit;
 using System.Drawing;
 
-namespace ToDoListApp.Handlers
+namespace BeebopNoteApp.Handlers
 {
     public class IosKeyboardHandler : Microsoft.Maui.Handlers.EntryHandler
     {

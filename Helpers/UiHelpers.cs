@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ToDoListApp.Helpers;
+namespace BeebopNoteApp.Helpers;
 public static class UiHelpers
 {
     public static void SetSwitchColors(IEnumerable<Switch> switches)

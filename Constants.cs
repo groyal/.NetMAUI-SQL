@@ -1,4 +1,4 @@
-﻿namespace ToDoListApp
+﻿namespace BeebopNoteApp
 {
     public static class Constants
     {

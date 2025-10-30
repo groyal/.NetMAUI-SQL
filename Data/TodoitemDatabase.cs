@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ToDoListApp.Models;
+using BeebopNoteApp.Models;
 
-namespace ToDoListApp.Data
+namespace BeebopNoteApp.Data
 {
     public class TodoitemDatabase
     {

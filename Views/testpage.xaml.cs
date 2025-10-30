@@ -1,6 +1,6 @@
-using ToDoListApp.Models;
+using BeebopNoteApp.Models;
 
-namespace ToDoListApp.Views;
+namespace BeebopNoteApp.Views;
 
 public partial class TestPage : ContentPage
 {

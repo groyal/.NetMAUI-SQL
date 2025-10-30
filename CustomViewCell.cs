@@ -1,7 +1,7 @@
 ﻿using Microsoft.Maui.Controls;
 using Microsoft.Maui.Graphics;
 
-namespace ToDoListApp;
+namespace BeebopNoteApp;
 
 public class CustomViewCell : Microsoft.Maui.Controls.ViewCell
 {

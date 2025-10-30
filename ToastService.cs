@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using CommunityToolkit.Maui.Alerts;
 using CommunityToolkit.Maui.Core;
 
-namespace ToDoListApp
+namespace BeebopNoteApp
 {
     public static class ToastService
     {

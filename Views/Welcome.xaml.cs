@@ -1,6 +1,6 @@
 using System.Collections.ObjectModel;
 
-namespace ToDoListApp.Views;
+namespace BeebopNoteApp.Views;
 
 public partial class Welcome : ContentPage
 {

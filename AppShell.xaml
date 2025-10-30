@@ -1,8 +1,8 @@
-﻿<Shell x:Class="ToDoListApp.AppShell"
+﻿<Shell x:Class="BeebopNoteApp.AppShell"
        xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-       xmlns:local="clr-namespace:ToDoListApp"
-       xmlns:views="clr-namespace:ToDoListApp.Views"
+       xmlns:local="clr-namespace:BeebopNoteApp"
+       xmlns:views="clr-namespace:BeebopNoteApp.Views"
        FlyoutBehavior="Disabled"
        Shell.TabBarUnselectedColor="{AppThemeBinding Light=LightGray, Dark=Gray}">
 

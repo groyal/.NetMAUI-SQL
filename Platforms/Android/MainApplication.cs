@@ -18,7 +18,7 @@ using Android.Runtime;
 // Haptic feedback permission
 [assembly: UsesPermission(Android.Manifest.Permission.Vibrate)]
 
-namespace ToDoListApp;
+namespace BeebopNoteApp;
 
 [Application]
 public class MainApplication : MauiApplication

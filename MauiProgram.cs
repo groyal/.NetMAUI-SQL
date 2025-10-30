@@ -3,11 +3,11 @@ using Microsoft.Maui.Handlers;
 using Microsoft.Maui.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Maui.Controls.Hosting;
-using ToDoListApp;
+using BeebopNoteApp;
 using System;
 using Microcharts.Maui;
 using Plugin.Maui.Biometric;
-using ToDoListApp.Handlers;
+using BeebopNoteApp.Handlers;
 #if ANDROID
 using Microsoft.Maui.Controls.Compatibility.Platform.Android;
 #endif
@@ -16,7 +16,7 @@ using Maui.FreakyEffects;
 using DotNet.Meteor.HotReload.Plugin;
 #endif
 
-namespace ToDoListApp;
+namespace BeebopNoteApp;
 /*
  * 
  *  This is the main entry point for normal .NET MAUI apps.

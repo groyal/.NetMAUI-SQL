@@ -8,7 +8,7 @@ using Microsoft.Maui.Controls;
 using Microsoft.Maui.Controls.Compatibility.Platform.Android;
 #endif
 
-namespace ToDoListApp.Handlers
+namespace BeebopNoteApp.Handlers
 {
     internal class AndroidHandlers
     {

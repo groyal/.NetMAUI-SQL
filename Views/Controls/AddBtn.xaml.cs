@@ -1,4 +1,4 @@
-namespace ToDoListApp.Views.Controls
+namespace BeebopNoteApp.Views.Controls
 {
     public partial class AddBtn
     {

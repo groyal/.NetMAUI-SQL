@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ToDoListApp.Models
+namespace BeebopNoteApp.Models
 {
     public class Todoitem
     {

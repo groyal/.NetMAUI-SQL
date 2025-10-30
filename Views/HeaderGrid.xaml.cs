@@ -1,7 +1,7 @@
 using Microsoft.Maui.Controls;
 using System;
 
-namespace ToDoListApp.Views
+namespace BeebopNoteApp.Views
 {
     public partial class HeaderGrid : ContentView
     {

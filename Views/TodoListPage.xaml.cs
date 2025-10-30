@@ -1,16 +1,16 @@
 ﻿using Microsoft.Maui.ApplicationModel;
 using Microsoft.Maui.Controls;
-using ToDoListApp.Data;
-using ToDoListApp.Models;
+using BeebopNoteApp.Data;
+using BeebopNoteApp.Models;
 using CommunityToolkit.Maui.Core.Platform;
 using CommunityToolkit.Maui.Alerts;
 using CommunityToolkit.Maui.Core;
-using static ToDoListApp.ToastService;
+using static BeebopNoteApp.ToastService;
 using System;
 using System.ComponentModel;
-using ToDoListApp.Views.Controls;
+using BeebopNoteApp.Views.Controls;
 
-namespace ToDoListApp.Views
+namespace BeebopNoteApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class TodoListPage : ContentPage, INotifyPropertyChanged

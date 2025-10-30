@@ -1,14 +1,14 @@
 ﻿using Microcharts;
 using Microcharts.Maui;
 using SkiaSharp;
-using ToDoListApp.Data;
-using ToDoListApp.Models;
-using ToDoListApp.Views;
+using BeebopNoteApp.Data;
+using BeebopNoteApp.Models;
+using BeebopNoteApp.Views;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ToDoListApp.Views
+namespace BeebopNoteApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Dashboard : ContentPage

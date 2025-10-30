@@ -4,15 +4,15 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
-using ToDoListApp.Data;
-using ToDoListApp.Models;
+using BeebopNoteApp.Data;
+using BeebopNoteApp.Models;
 using CommunityToolkit.Maui.Alerts;
 using CommunityToolkit.Maui.Core;
-using ToDoListApp.Helpers;
-using static ToDoListApp.ToastService;
+using BeebopNoteApp.Helpers;
+using static BeebopNoteApp.ToastService;
 using SkiaSharp;
 
-namespace ToDoListApp.Views
+namespace BeebopNoteApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class TodoitemPage : ContentPage

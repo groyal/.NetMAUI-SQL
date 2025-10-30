@@ -6,7 +6,7 @@ using AContext = Android.Content.Context;
 using AView = Android.Views.View;
 using AViewGroup = Android.Views.ViewGroup;
 
-namespace ToDoListApp
+namespace BeebopNoteApp
 {
     public class CustomViewCellHandler : Microsoft.Maui.Controls.Handlers.Compatibility.ViewCellRenderer
     {

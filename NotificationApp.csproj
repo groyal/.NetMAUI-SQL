@@ -10,7 +10,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 
 		<!-- Display name -->
-		<ApplicationTitle>BeebopNote</ApplicationTitle>
+		<ApplicationTitle>BeebopNoteApp</ApplicationTitle>
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.todolistapp</ApplicationId>

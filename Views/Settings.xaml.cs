@@ -1,7 +1,7 @@
 ﻿using System.Text;
-using ToDoListApp.Data;
-using ToDoListApp.Models;
-using ToDoListApp.Views;
+using BeebopNoteApp.Data;
+using BeebopNoteApp.Models;
+using BeebopNoteApp.Views;
 using CommunityToolkit.Maui.Alerts;
 using CommunityToolkit.Maui.Core;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -9,10 +9,10 @@ using System.Net.Http;
 using System.Net.Mail;
 using System.Net;
 using Plugin.Maui.Biometric;
-using ToDoListApp.Helpers;
-using static ToDoListApp.ToastService;
+using BeebopNoteApp.Helpers;
+using static BeebopNoteApp.ToastService;
 
-namespace ToDoListApp;
+namespace BeebopNoteApp;
 
 public partial class Settings : ContentPage
 {

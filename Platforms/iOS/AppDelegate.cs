@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace ToDoListApp;
+namespace BeebopNoteApp;
 
 [Register("AppDelegate")]
 public class AppDelegate : MauiUIApplicationDelegate

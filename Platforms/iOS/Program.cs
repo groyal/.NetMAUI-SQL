@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace ToDoListApp;
+namespace BeebopNoteApp;
 
 public class Program
 {

@@ -1,12 +1,12 @@
-﻿using ToDoListApp.Views;
+﻿using BeebopNoteApp.Views;
 using Microsoft.Maui.Controls;
 using Plugin.Maui.Biometric;
-using static ToDoListApp.ToastService;
+using static BeebopNoteApp.ToastService;
 #if IOS
 using WebKit;
 #endif
 
-namespace ToDoListApp;
+namespace BeebopNoteApp;
 
 public partial class App : Application
 {

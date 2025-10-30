@@ -57,7 +57,7 @@ public partial class Settings : ContentPage
 
     private void VersionTracker()
     {
-        FormattedVersionInfo.Text = $"Checkmate {runtimeOS} Version {VersionTracking.Default.CurrentVersion} ({VersionTracking.Default.CurrentBuild})";
+        FormattedVersionInfo.Text = $"BeebopNoteApp {runtimeOS} Version {VersionTracking.Default.CurrentVersion} ({VersionTracking.Default.CurrentBuild})";
     }
 
     // Dark Mode
@@ -313,22 +313,22 @@ public partial class Settings : ContentPage
 
     private async void AboutMe_Tapped(object sender, TappedEventArgs e)
     {
-        Uri github = new("https://github.com/OudomMunint");
-        Uri portfolio = new("https://oudommunint.netlify.app");
+        Uri github = new("https://beebop.one");
+        Uri portfolio = new("https://beebop.one");
 
-        bool result = await DisplayAlert("Visit GitHub or Portfolio?", null, "GitHub", "Portfolio");
+        bool result = await DisplayAlert("Visit Site or Support?", null, "Website", "Support");
         await OpenLinks(result ? github : portfolio);
     }
 
     private async void Feedback_Tapped(object sender, TappedEventArgs e)
     {
-        Uri issues = new("https://github.com/OudomMunint/.NetMAUI-To-Do-List-App/issues");
+        Uri issues = new("https://beebop.one");
         await OpenLinks(issues);
     }
 
     private async void HomePage_Tapped(object sender, TappedEventArgs e)
     {
-        Uri appRepo = new("https://github.com/OudomMunint/.NetMAUI-To-Do-List-App");
+        Uri appRepo = new("https://beebop.one");
         await OpenLinks(appRepo);
     }
 
@@ -344,7 +344,7 @@ public partial class Settings : ContentPage
             await Clipboard.Default.SetTextAsync(null);
         }
             
-        await Clipboard.Default.SetTextAsync($"Checkmate {runtimeOS} Version {VersionTracking.Default.CurrentVersion} ({VersionTracking.Default.CurrentBuild})");
+        await Clipboard.Default.SetTextAsync($"BeebopNoteApp {runtimeOS} Version {VersionTracking.Default.CurrentVersion} ({VersionTracking.Default.CurrentBuild})");
         await ShowToastAsync("Copied to clipboard.", 16, ToastDuration.Short);
     }
 }

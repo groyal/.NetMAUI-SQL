@@ -131,12 +131,14 @@
                                 <TapGestureRecognizer Tapped="CopyToClipBoard" NumberOfTapsRequired="1" />
                             </Label.GestureRecognizers>
                         </Label>
+                        <!--
                         <Label Text="See Previous versions" TextColor="{AppThemeBinding Dark=lightgray, Light=blue}"
                                 TextDecorations="Underline" HorizontalTextAlignment="Center">
                             <Label.GestureRecognizers>
                                 <TapGestureRecognizer Tapped="SeePrevious_Tapped" NumberOfTapsRequired="1" />
                             </Label.GestureRecognizers>
                         </Label>
+                        -->
                     </StackLayout>
                 </Border>
 

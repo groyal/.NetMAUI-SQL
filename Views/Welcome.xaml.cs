@@ -30,7 +30,7 @@ public partial class Welcome : ContentPage
 
         if (CarouselMain.Position == 0)
         {
-            ChangingText.Text = "Managing your task made easy";
+            ChangingText.Text = "Managing Your Notifications";
             ChangingSubText.Text = "You can view your stats with an informative dashboard";
         }
     }

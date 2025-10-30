@@ -48,6 +48,9 @@
 	<ItemGroup>
 		<!-- App Icon -->
 		<MauiIcon Include="Resources\AppIcon\appicon.png" />
+		<MauiSplashScreen Include="Resources\Splash\splash3.png">
+		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</MauiSplashScreen>
 
 		<!-- Splash Screen -->
 		<!--Color="#161B22" TintColor="161B22"-->
@@ -63,6 +66,7 @@
 
 	<ItemGroup>
 		<None Remove="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" />
+		<None Remove="Resources\Splash\splash3.png" />
 	</ItemGroup>
 
 	<ItemGroup>

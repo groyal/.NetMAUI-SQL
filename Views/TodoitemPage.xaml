@@ -38,7 +38,7 @@
                     <StackLayout>
                         <HorizontalStackLayout Spacing="10">
                             <!--<Image Margin="10,0,0,0" Source="todo.png" Aspect="AspectFit" HeightRequest="20" WidthRequest="{OnPlatform iOS=20}"/>-->
-                            <Label Margin="10,0,0,0" FontSize="20" Text="Task" FontAttributes="Bold" FontFamily="Inter-SemiBold" />
+                            <Label Margin="10,0,0,0" FontSize="20" Text="Subject" FontAttributes="Bold" FontFamily="Inter-SemiBold" />
                         </HorizontalStackLayout>
 
                         <Border Style="{DynamicResource InputBorder}" Padding="7" Margin="0,10,0,0" HorizontalOptions="Fill">
@@ -67,7 +67,7 @@
                 <StackLayout>
                     <HorizontalStackLayout Spacing="10">
                         <!--<Image Margin="10,0,0,0" Source="priority.png" Aspect="AspectFit" HeightRequest="25" WidthRequest="{OnPlatform iOS=25}"/>-->
-                        <Label Margin="10,0,0,0" FontSize="20" Text="Task Priority" FontFamily="Inter-SemiBold" />
+                        <Label Margin="10,0,0,0" FontSize="20" Text="Alert Priority" FontFamily="Inter-SemiBold" />
                     </HorizontalStackLayout>
 
                     <Border Style="{DynamicResource InputBorder}" Padding="10" Margin="0,10,0,0">
@@ -123,6 +123,7 @@
                     </HorizontalStackLayout>
                     <Border HorizontalOptions="Fill" Style="{StaticResource InputBorder}" Padding="10">
                         <Grid RowDefinitions="*,*,*" ColumnDefinitions="*,*" RowSpacing="5">
+                            <!--
                             <Label Grid.Column="0" Grid.Row="0" Margin="10,0,10,0" HorizontalOptions="Start" VerticalOptions="Center" FontFamily="Inter-Bold" Text="Mark as Done" />
 
                             <Switch x:Name="DoneSwitch" Grid.Column="1" Grid.Row="0" HorizontalOptions="End" IsToggled="{Binding Done}" />
@@ -130,7 +131,7 @@
                             <BoxView Grid.Row="1" Grid.ColumnSpan="3" HeightRequest="1"
                                     Color="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray600}}"
                                     VerticalOptions="Center"/>
-
+                            -->
                             <Label Grid.Row="2" Grid.Column="0" Text="Pin as Favourite" HorizontalOptions="Start" VerticalOptions="Center" FontFamily="Inter-Bold" Margin="10,0,10,0" />
 
                             <Switch x:Name="PinSwitch" Grid.Column="1" Grid.Row="2" HorizontalOptions="End" IsToggled="{Binding IsPinned}" />

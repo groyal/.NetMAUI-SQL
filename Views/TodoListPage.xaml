@@ -71,7 +71,7 @@
                     <RowDefinition Height="*" />
                     <RowDefinition Height="80" />
                 </Grid.RowDefinitions>
-                <Label Grid.Row="0" Text="Pinned Items" FontSize="20" FontFamily="Inter-Bold" HorizontalOptions="Center" />
+                <Label Grid.Row="0" Text="Pinned Alerts" FontSize="20" FontFamily="Inter-Bold" HorizontalOptions="Center" />
                 <CollectionView x:Name="pinnedList" Grid.Row="1" HorizontalScrollBarVisibility="Never">
                     <CollectionView.ItemsLayout>
                         <LinearItemsLayout Orientation="Horizontal" ItemSpacing="1" />

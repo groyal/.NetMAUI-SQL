@@ -23,7 +23,7 @@ namespace BeebopNoteApp.Views
         {
             InitializeComponent();
 
-            Switch[] switches = { DoneSwitch, PinSwitch };
+            Switch[] switches = { PinSwitch };
 
             UiHelpers.SetSwitchColors(switches);
         }

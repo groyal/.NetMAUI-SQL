@@ -165,7 +165,7 @@ namespace BeebopNoteApp.Views
 
         async void DeleteAllItems(object sender, EventArgs e)
         {
-            bool userConfirmed = await DisplayAlert("Delete All Tasks", "Confirm you want to DELETE ALL items?", "Yes", "No");
+            bool userConfirmed = await DisplayAlert("Delete All Alerts", "Confirm you want to DELETE ALL items?", "Yes", "No");
 
             if (userConfirmed)
             {
@@ -183,7 +183,7 @@ namespace BeebopNoteApp.Views
                     await IsEmptyList();
                     await UpdateListView();
                     HapticFeedback.Perform(HapticFeedbackType.Click);
-                    await ShowToastAsync("All Task(s) Deleted 🗑", 16, ToastDuration.Short);
+                    await ShowToastAsync("All Alerts(s) Deleted 🗑", 16, ToastDuration.Short);
                 }
                 catch (Exception ex)
                 {
@@ -226,7 +226,7 @@ namespace BeebopNoteApp.Views
         private void UpdateTitle()
         {
             int totalItems = listView.ItemsSource?.Cast<object>().Count() ?? 0;
-            string task = "Task";
+            string task = "Alert";
 
             // pluralize "task" if totalItems > 1
             if (totalItems != 1)
@@ -272,7 +272,7 @@ namespace BeebopNoteApp.Views
             }
             else
             {
-                bool Confirmed = await DisplayAlert("Delete Selected Tasks", "Do you want to delete all selected items?", "Yes", "No");
+                bool Confirmed = await DisplayAlert("Delete Selected Alerts", "Do you want to delete all selected items?", "Yes", "No");
 
                 if (Confirmed)
                 {
@@ -285,7 +285,7 @@ namespace BeebopNoteApp.Views
                     // Refresh ListView
                     await IsEmptyList();
                     await UpdateListView();
-                    await ShowToastAsync("Selected Task(s) Deleted 🗑️", 16, ToastDuration.Short);
+                    await ShowToastAsync("Selected Alerts(s) Deleted 🗑️", 16, ToastDuration.Short);
                 }
             }
         }
@@ -418,9 +418,9 @@ namespace BeebopNoteApp.Views
                 return;
             }
 
-            string alertTitleForDone = "Mark selected tasks as complete";
+            string alertTitleForDone = "Mark selected alerts as complete";
             string alertMessageForDone = "Do you want to mark all selected items as complete?";
-            string alertTitleForNotDone = "Mark selected tasks as incomplete";
+            string alertTitleForNotDone = "Mark selected alerts as incomplete";
             string alertMessageForNotDone = "Do you want to mark all selected items as incomplete?";
 
             //Mark as done
@@ -674,7 +674,7 @@ namespace BeebopNoteApp.Views
                 {
                     if (todoItem.Done == true)
                     {
-                        await DisplayAlert("Task already completed", null, "OK");
+                        await DisplayAlert("Alert already completed", null, "OK");
                     }
 
                     else

@@ -182,7 +182,7 @@ public partial class Settings : ContentPage
         {
             var item = new Todoitem
             {
-                Name = $"Task {i + 1}",
+                Name = $"Alert {i + 1}",
                 Notes = $"Description {i + 1}",
                 Priority = priorities[random.Next(priorities.Length)],
                 Date = DateTime.Now.AddDays(-i),

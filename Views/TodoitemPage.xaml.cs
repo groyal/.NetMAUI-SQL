@@ -127,7 +127,7 @@ namespace BeebopNoteApp.Views
             if (string.IsNullOrWhiteSpace(NameField.Text))
             {
                 itemTitle.FormattedText = new FormattedString();
-                itemTitle.FormattedText.Spans.Add(new Span { Text = "Create task", FontAttributes = FontAttributes.Bold });
+                itemTitle.FormattedText.Spans.Add(new Span { Text = "Create alert", FontAttributes = FontAttributes.Bold });
             }
             else
             {
@@ -169,7 +169,7 @@ namespace BeebopNoteApp.Views
             if (string.IsNullOrWhiteSpace(NameField.Text) || string.IsNullOrWhiteSpace(DescField.Text))
             {
                 HapticFeedback.Perform(HapticFeedbackType.LongPress);
-                await DisplayAlert("Cannot Save Task", "Please enter Name and Notes", "OK");
+                await DisplayAlert("Cannot Save Alert", "Please enter Name and Notes", "OK");
                 return;
             }
 
@@ -204,14 +204,14 @@ namespace BeebopNoteApp.Views
             TodoitemDatabase database = await TodoitemDatabase.Instance;
 
             await database.SaveItemAsync(todoItem);
-            await ShowToastAsync("Task Saved ✅", 16, ToastDuration.Long);
+            await ShowToastAsync("Alert Saved ✅", 16, ToastDuration.Long);
             await Navigation.PopAsync();
         }
 
         async void OnDeleteClicked(object sender, EventArgs e)
         {
             HapticFeedback.Perform(HapticFeedbackType.LongPress);
-            bool Confirmed = await DisplayAlert("Delete To-Do Item.", "Are you sure you want to delete this item? all attachments bound to this item will be lost", "Yes", "No");
+            bool Confirmed = await DisplayAlert("Delete Item.", "Are you sure you want to delete this item? all attachments bound to this item will be lost", "Yes", "No");
 
             if (Confirmed)
             {
@@ -220,7 +220,7 @@ namespace BeebopNoteApp.Views
                 TodoitemDatabase database = await TodoitemDatabase.Instance;
 
                 await database.DeleteItemAsync(todoItem);
-                await ShowToastAsync("Task Deleted 🗑️", 16, ToastDuration.Short);
+                await ShowToastAsync("Alert Deleted 🗑️", 16, ToastDuration.Short);
                 await Navigation.PopAsync();
             }
         }

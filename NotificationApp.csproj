@@ -70,18 +70,20 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Maui.Controls" Version="9.0.60" />
-		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="9.0.60" />
-		<PackageReference Include="CommunityToolkit.Maui" Version="11.2.0" />
-		<PackageReference Include="CommunityToolkit.Maui.Core" Version="11.2.0" />
+		<PackageReference Include="log4net" Version="3.2.0" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="9.0.120" />
+		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="9.0.120" />
+		<PackageReference Include="CommunityToolkit.Maui" Version="12.2.0" />
+		<PackageReference Include="CommunityToolkit.Maui.Core" Version="12.2.0" />
+		<PackageReference Include="Novu" Version="2.5.0" />
 		<PackageReference Include="SQLiteNetExtensions.Async" Version="2.1.0" />
 		<PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
-		<PackageReference Include="SQLitePCLRaw.core" Version="2.1.11" />
+		<PackageReference Include="SQLitePCLRaw.core" Version="3.0.2" />
 		<PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.11" />
-		<PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="2.1.11" />
-		<PackageReference Include="SQLitePCLRaw.provider.sqlite3" Version="2.1.11" />
-		<PackageReference Include="Plugin.Maui.Biometric" Version="0.0.6" />
-		<PackageReference Include="FreakyEffects" Version="0.1.4-pre" />
+		<PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="3.0.2" />
+		<PackageReference Include="SQLitePCLRaw.provider.sqlite3" Version="3.0.2" />
+		<PackageReference Include="Plugin.Maui.Biometric" Version="0.0.9" />
+		<PackageReference Include="FreakyEffects" Version="0.1.5" />
 		<PackageReference Include="xunit.extensibility.core" Version="2.9.3" />
 		<PackageReference Include="DotNetMeteor.HotReload.Plugin" Version="3.*" />
 	</ItemGroup>
@@ -123,6 +125,6 @@
 		<PackageReference Include="Microcharts.Maui" Version="1.0.0" />
 	</ItemGroup>
 	<ItemGroup Condition="'$(TargetFramework)' == 'net9.0-ios'">
-		<PackageReference Include="Microcharts.Maui" Version="1.0.0" />
+		<PackageReference Include="Microcharts.Maui" Version="1.0.1" />
 	</ItemGroup>
 </Project>

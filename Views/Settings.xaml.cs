@@ -28,7 +28,7 @@ public partial class Settings : ContentPage
     {
         var current = Connectivity.NetworkAccess;
 
-        if (current == NetworkAccess.Internet)
+        if (current == Microsoft.Maui.Networking.NetworkAccess.Internet)
         {
             return true;
         }
